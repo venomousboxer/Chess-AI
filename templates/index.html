@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/chessboard-1.0.0.css">
+        <title>Chess-AI</title>
+    </head>
+    <body>
+
+            <br>
+          <div class="container">
+            <h1>Chess-AI</h1>
+              {% if message %}
+              <p>{{ message }}</p>
+              {% endif %}
+          <div id="myBoard" style="width: 400px"></div>
+          <form id="move_io" action="" method="post">
+            <input type="text" name="move", style="display:none">
+          </form>
+          </div>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <!-- Chess JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+
+        <!-- ChessBoard JS -->
+        <script src="/static/js/chessboard-1.0.0.js"></script>
+        <script>
+        var fen="{{ fen }}"
+        var ok = true
+        var colour = 'black'
+        {% if white %}
+        colour = 'white'
+        {% endif %}
+        </script>
+        <script src="/static/script.js"></script>
+
+    </body>
+</html>

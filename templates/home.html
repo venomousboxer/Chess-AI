@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <title>Chess-AI</title>
+    </head>
+    <body>
+          <div class="container">
+            <h1>Chess-AI</h1>
+              <br>
+          <div id="myBoard" style="width: 500px%"></div>
+            This game may be terminated after 3 hours based on the server load.<br><br>
+            <form action="" method="post">
+              <input type="radio" name="colour" value="white"> Play as white
+              <input type="radio" name="colour" value="black" checked> Play as black<br><br>
+                <p>Select Level</p>
+                <input type="radio" name="level" value="1"> Level 1 : Max. depth = 3, Max. time = 1s<br>
+                <input type="radio" name="level" value="2"> Level 2 : Max. depth = 4, Max. time = 2s<br>
+                <input type="radio" name="level" value="3"> Level 3 : Max. depth = 5, Max. time = 5s<br>
+                <input type="radio" name="level" value="4"> Level 4 : Max. depth = 5, Max. time = 10s<br>
+                <input type="radio" name="level" value="5"> Level 5 : Max. depth = 5, Max. time = 20s<br>
+                <input type="radio" name="level" value="6"> Level 6 : Max. depth = 8, Max. time = 20s<br>
+                <input type="radio" name="level" value="7" checked> Level 7 : Max. depth = 50, Max. time = 20s<br>
+                <input type="radio" name="level" value="8"> Level 8 : Max. depth = 10, Max. time = 60s<br>
+                <input type="radio" name="level" value="9"> Level 9 : Max. depth = 50, Max. time = 60s<br>
+                <input type="radio" name="level" value="10"> Level 10 : Max. depth = 50, Max. time = 200s<br><br>
+
+              <input type="submit" value="Start Game">
+            </form>
+          </div>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
