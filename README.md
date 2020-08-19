@@ -11,7 +11,7 @@ In a terminal type :
 	$ pip install flask
 	$ pip install python chess
 	$ git clone https://github.com/Vyomkesh55/chess-AI
-	$ cd chess-AI
+	$ cd Chess-AI
 	$ python app.py
 ```
 In your web browser open localhost:5000
@@ -25,6 +25,6 @@ In a terminal type :
 	$ pip install flask
 	$ pip install python chess
 	$ git clone https://github.com/Vyomkesh55/chess-AI
-	$ cd chess-AI
+	$ cd Chess-AI
 	$ python game.py
 ```
