@@ -1,9 +1,6 @@
 # Ways to play against the engine :
 
-1.	Play it online on http://vyomkesh.pythonanywhere.com/. 
-Note that this method needs an internet connection throughout the game, and the games longer than 3 hours are terminated.
-
-2.	Play it offline, in the browser.
+1.	Play it offline, in the browser.
 	
 Make sure you have Python (v 3.6 or above) and pip on your system.
 In a terminal type :
@@ -16,7 +13,7 @@ In a terminal type :
 ```
 In your web browser open localhost:5000
 
-3.	Play it offline, in a text based I/O environment.
+2.	Play it offline, in a text based I/O environment.
 
 
 Make sure you have Python (v 3.6 or above) and pip on your system.
