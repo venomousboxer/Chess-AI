@@ -6,7 +6,7 @@ Make sure you have Python (v 3.6 or above) and pip on your system.
 In a terminal type :
 ```
 	$ pip install flask
-	$ pip install python chess
+	$ pip install python-chess
 	$ git clone https://github.com/venomousboxer/Chess-AI.git
 	$ cd Chess-AI
 	$ python app.py
@@ -20,7 +20,7 @@ Make sure you have Python (v 3.6 or above) and pip on your system.
 In a terminal type :
 ```
 	$ pip install flask
-	$ pip install python chess
+	$ pip install python-chess
 	$ git https://github.com/venomousboxer/Chess-AI.git
 	$ cd Chess-AI
 	$ python game.py
